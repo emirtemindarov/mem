@@ -1,5 +1,5 @@
 [package]
-name = "mem"
+name = "mem_println"
 version = "0.1.0"
 edition = "2021"
 authors = ["temindarov.e.i.20@gmail.com <https://github.com/emirtemindarov>"]
