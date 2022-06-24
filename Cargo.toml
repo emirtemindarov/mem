@@ -1,0 +1,18 @@
+[package]
+name = "mem"
+version = "0.1.0"
+edition = "2021"
+authors = ["emirtemindarov <https://github.com/emirtemindarov>"]
+rust-version = "1.60.0"
+# homepage = ""
+repository = "https://github.com/emirtemindarov/mem.git"
+license = "MIT OR Apache-2.0"
+keywords = ["macro", "lib", "memory"]
+categories = ["development-tools::debugging", "development-tools::profiling", "development-tools::testing"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[features]
+default = ["println_mem"]
+println_mem = []
+# get_size_of_val = []
