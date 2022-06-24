@@ -2,7 +2,7 @@
 name = "mem"
 version = "0.1.0"
 edition = "2021"
-authors = ["emirtemindarov <https://github.com/emirtemindarov>"]
+authors = ["temindarov.e.i.20@gmail.com <https://github.com/emirtemindarov>"]
 rust-version = "1.60.0"
 # homepage = ""
 description = "Shortcut for printing size of value in bytes"
