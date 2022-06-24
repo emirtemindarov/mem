@@ -5,6 +5,7 @@ edition = "2021"
 authors = ["emirtemindarov <https://github.com/emirtemindarov>"]
 rust-version = "1.60.0"
 # homepage = ""
+description = "Shortcut for printing size of value in bytes"
 repository = "https://github.com/emirtemindarov/mem.git"
 license = "MIT OR Apache-2.0"
 keywords = ["macro", "lib", "memory"]
