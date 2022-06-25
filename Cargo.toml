@@ -1,10 +1,10 @@
 [package]
 name = "mem_println"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 authors = ["temindarov.e.i.20@gmail.com <https://github.com/emirtemindarov>"]
 rust-version = "1.60.0"
-homepage = "https://docs.rs/mem_println/0.1.0/mem_println/"
+homepage = "https://docs.rs/mem_println/"
 description = "Shorthand for printing size of value in bytes"
 repository = "https://github.com/emirtemindarov/mem.git"
 license = "MIT OR Apache-2.0"
