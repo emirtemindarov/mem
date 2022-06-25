@@ -1,19 +1,22 @@
 #[cfg(feature = "println_mem")]
 #[macro_export]
 macro_rules! mem {
-($value: ident) => {
+($value: ident) => {{
         use std::mem;
         println!("{}", mem::size_of_val(&$value));
-    };
+    };};
 }
 
 #[cfg(test)]
 mod tests {
     #[test]
     fn integer() {
-        let number = 7;
-        mem!(number);
-        assert_eq!(4, mem::size_of_val(&number));
+        let value1: i8 = 6;
+        let value2: i16 = 7;
+        let value3: i32 = 8;
+        mem!(value1);
+        mem!(value2);
+        mem!(value3);
     }
     #[test]
     fn structure() {
