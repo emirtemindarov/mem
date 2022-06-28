@@ -1,11 +1,11 @@
 [package]
 name = "mem_println"
-version = "0.1.4"
+version = "0.1.5"
 edition = "2021"
 authors = ["temindarov.e.i.20@gmail.com <https://github.com/emirtemindarov>"]
 rust-version = "1.60.0"
-documentation = "https://docs.rs/mem_println/"
-description = "Shorthand for printing size of value in bytes"
+documentation = "https://docs.rs/mem_println/0.1.5"
+description = "Shortcuts for debugging the size of value in bytes"
 repository = "https://github.com/emirtemindarov/mem.git"
 license = "MIT OR Apache-2.0"
 keywords = ["macro", "lib", "memory"]
@@ -14,6 +14,7 @@ categories = ["development-tools::debugging", "development-tools::profiling", "d
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [features]
-default = ["println_mem"]
+default = ["println_mem", "get_size_of_val"]
 println_mem = []
-# get_size_of_val = []
+get_size_of_val = []
+# ...
