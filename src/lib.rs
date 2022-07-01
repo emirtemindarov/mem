@@ -33,7 +33,6 @@ mod tests {
     #[test]
     fn unit_struct() {
         use std::mem;
-        #[derive(Debug)]
         struct UnitStruct;
         let value = UnitStruct;
         mem!(value);
