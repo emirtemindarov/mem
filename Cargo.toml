@@ -7,7 +7,7 @@ rust-version = "1.60.0"
 documentation = "https://docs.rs/mem_println/0.1.5"
 description = "Shortcuts for debugging the size of value in bytes"
 repository = "https://github.com/emirtemindarov/mem.git"
-license = "MIT OR Apache-2.0"
+license = "LICENSE.md"
 keywords = ["macro", "lib", "memory"]
 categories = ["development-tools::debugging", "development-tools::profiling", "development-tools::testing"]
 
